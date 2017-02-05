@@ -7,6 +7,6 @@ class PropertiesReader {
     }
 
     final
-    static ConfigObject config = new ConfigSlurper().parse(new File("src\\test\\resources\\configuration.groovy").toURI().toURL())
+    static ConfigObject config = new ConfigSlurper().parse(new File("src/test/resources/configuration.groovy").toURI().toURL())
 
 }
